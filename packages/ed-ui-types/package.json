@@ -1,9 +1,9 @@
 {
-  "name": "types",
+  "name": "@estartando-devs/ed-ui-types",
   "version": "1.0.0",
   "description": "Components types and interfaces for ed-ui.",
   "author": "jonatapinto <jonatastdb_jp@hotmail.com>",
-  "homepage": "https://github.com/estartando-devs/ed-ui/tree/main/packages/types#readme",
+  "homepage": "https://github.com/estartando-devs/ed-ui-types/tree/main/packages/ed-ui-types#readme",
   "license": "ISC",
   "main": "src/index.ts",
   "repository": {
