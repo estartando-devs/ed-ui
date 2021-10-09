@@ -1,48 +1,24 @@
 {
   "name": "ed-ui",
-  "version": "1.0.0",
-  "description": "Biblioteca de componentes visuais customizados a partir da difinição de um tema.",
-  "main": "index.js",
-  "scripts": {
-    "build": "webpack --entry ./src/components/index.ts --output ./build/index.js",
-    "start": "webpack-dev-server --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Ui components using Monorepo, Typescript, React, CSS Modules and Storybook.",
+  "author": "@estartando-devs",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "https://github.com/estartando-devs/ed-ui#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/estartando-devs/ed-ui.git"
+    "url": "https://github.com/estartando-devs/ed-ui.git"
   },
-  "keywords": [
-    "ui",
-    "design",
-    "components",
-    "reactjs",
-    "js"
-  ],
-  "author": "Estartando Devs",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/estartando-devs/ed-ui/issues"
   },
-  "homepage": "https://github.com/estartando-devs/ed-ui#readme",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {},
   "devDependencies": {
-    "@babel/cli": "^7.1.0",
-    "@babel/core": "^7.1.0",
-    "@babel/preset-env": "^7.1.0",
-    "@babel/preset-react": "^7.0.0",
-    "@types/react": "^16.9.56",
-    "babel-loader": "^8.0.2",
-    "css-loader": "^1.0.0",
-    "react-hot-loader": "^4.13.0",
-    "style-loader": "^0.23.0",
-    "typescript": "^4.0.5",
-    "webpack": "^4.19.1",
-    "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.1.8"
+    "lerna": "^4.0.0",
+    "typescript": "^4.4.3"
   },
-  "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "ts-loader": "^8.0.11"
-  }
+  "dependencies": {}
 }
