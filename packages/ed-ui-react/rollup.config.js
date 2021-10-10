@@ -29,8 +29,7 @@ export default {
     peerDepsExternal(),
     resolve(),
     commonjs(),
-    typescript({ 
-      useTsconfigDeclarationDir: true,
+    typescript({
       tsconfigDefaults: {
         exclude: [
           // all TS test files, regardless whether co-located or in test/ etc
