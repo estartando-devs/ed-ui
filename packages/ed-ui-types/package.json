@@ -1,6 +1,6 @@
 {
   "name": "@estartando-devs/ed-ui-types",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "description": "Components types and interfaces for ed-ui.",
   "author": "jonatapinto <jonatastdb_jp@hotmail.com>",
@@ -23,5 +23,7 @@
   "bugs": {
     "url": "https://github.com/estartando-devs/ed-ui/issues"
   },
-  "gitHead": "8f6c47aa28feb5c57396ff4f4ee07ac214abdf14"
+  "publishConfig": {
+    "access": "public"
+  }
 }
