@@ -57,7 +57,7 @@ export default {
     }),
     babel({
       extensions: ['.ts', '.tsx'],
-      babelHelpers: 'bundled',
+      babelHelpers: 'runtime',
       include: 'src/**/*',
       exclude: 'node_modules/**',
       presets: [
