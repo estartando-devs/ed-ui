@@ -1,6 +1,6 @@
 {
   "name": "@estartando-devs/ed-ui-types",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "description": "Components types and interfaces for ed-ui.",
   "author": "jonatapinto <jonatastdb_jp@hotmail.com>",
