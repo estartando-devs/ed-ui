@@ -1,6 +1,6 @@
 {
   "name": "@estartando-devs/ed-ui-react",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "description": "> TODO: description",
   "author": "jonatapinto <jonatastdb_jp@hotmail.com>",
@@ -30,7 +30,7 @@
     "prepublish": "yarn build"
   },
   "dependencies": {
-    "@estartando-devs/ed-ui-types": "^0.0.4",
+    "@estartando-devs/ed-ui-types": "^0.0.5",
     "polished": "^4.1.3",
     "styled-components": "^5.3.1"
   },
