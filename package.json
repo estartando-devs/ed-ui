@@ -3,7 +3,7 @@
   "description": "Ui components using Monorepo, Typescript, React, CSS Modules and Storybook.",
   "author": "@estartando-devs",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "homepage": "https://github.com/estartando-devs/ed-ui#readme",
   "repository": {
     "type": "git",
