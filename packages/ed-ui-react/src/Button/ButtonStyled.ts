@@ -83,7 +83,7 @@ const DISABLED = css`
   }
 `;
 
-const ButtonContainer = styled.button<IButton>`
+export const ButtonContainer = styled.button<IButton>`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,5 +103,3 @@ const ButtonContainer = styled.button<IButton>`
   ${(props) => props.disabled && DISABLED};
   ${(props) => props.size && SIZE[props.size]}
 `;
-
-export { ButtonContainer };
