@@ -17,6 +17,8 @@
 
 ### ✨ [Demo](https://estartando-devs.github.io/ed-ui)
 
+### :tada: [Using with React](https://github.com/estartando-devs/ed-ui/blob/master/packages/ed-ui-react/README.md)
+
 ## Install
 
 ```sh
