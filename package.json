@@ -3,7 +3,7 @@
   "description": "Ui components using Monorepo, Typescript, React, CSS Modules and Storybook.",
   "author": "@estartando-devs",
   "version": "0.0.1",
-  "private": false,
+  "private": true,
   "homepage": "https://github.com/estartando-devs/ed-ui#readme",
   "repository": {
     "type": "git",
@@ -18,9 +18,13 @@
   "scripts": {
     "bootstrap": "lerna bootstrap --use-workspaces",
     "build": "lerna run build",
-    "start": "lerna run start --parallel"
+    "build:storybook": "lerna run build:storybook",
+    "start": "lerna run start --parallel",
+    "deploy:storybook": "yarn build:storybook && gh-pages-deploy",
+    "deploy:storybook-clean": "rimraf README.md packages package.json"
   },
   "devDependencies": {
+    "gh-pages-deploy": "^0.5.1",
     "lerna": "^4.0.0",
     "rollup": "^2.3.2",
     "rollup-plugin-commonjs": "^10.1.0",
@@ -33,5 +37,12 @@
   "dependencies": {},
   "publishConfig": {
     "access": "public"
+  },
+  "gh-pages-deploy": {
+    "staticpath": "dist",
+    "post": [
+      "deploy:storybook-clean"
+    ],
+    "noprompt": true
   }
 }
