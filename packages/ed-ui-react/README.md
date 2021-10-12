@@ -1,11 +1,29 @@
 # `ed-ui-react`
 
-> TODO: description
+> UI Components using React
+
+### ✨ [Demo](https://estartando-devs.github.io/ed-ui)
 
 ## Usage
 
-```
-const edUiReact = require('ed-ui-react');
+### Install
 
-// TODO: DEMONSTRATE API
+Fist you need to install it using NPM or Yarn.
+
+#### Yarn
+
+```sh
+$ yarn add @estartando-devs/ed-ui-react
 ```
+
+#### NPM
+
+```sh
+$ npm i @estartando-devs/ed-ui-react
+```
+
+> TODO example
+
+## As develop
+
+Check the [README](../../README.md).

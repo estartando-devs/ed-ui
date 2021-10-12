@@ -2,7 +2,7 @@
   "name": "@estartando-devs/ed-ui-react",
   "version": "0.0.13",
   "private": false,
-  "description": "> TODO: description",
+  "description": "UI Components using React",
   "author": "jonatapinto <jonatastdb_jp@hotmail.com>",
   "homepage": "https://github.com/estartando-devs/ed-ui/tree/main/packages/ed-ui-react#readme",
   "license": "ISC",

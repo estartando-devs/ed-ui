@@ -15,6 +15,8 @@
 
 ### 🏠 [Homepage](https://github.com/estartando-devs/ed-ui#readme)
 
+### ✨ [Demo](https://estartando-devs.github.io/ed-ui)
+
 ## Install
 
 ```sh
@@ -37,9 +39,9 @@ yarn test
 
 👤 **@estartando-devs**
 
-* Website: http://www.estartandodevs.com.br/
-* Github: [@estartando-devs](https://github.com/estartando-devs)
-* LinkedIn: [@https:\/\/www.linkedin.com\/company\/estartando-devs\/](https://linkedin.com/in/https:\/\/www.linkedin.com\/company\/estartando-devs\/)
+- Website: http://www.estartandodevs.com.br/
+- Github: [@estartando-devs](https://github.com/estartando-devs)
+- LinkedIn: [@https:\/\/www.linkedin.com\/company\/estartando-devs\/](https://linkedin.com/in/https://www.linkedin.com/company/estartando-devs/)
 
 ## 🤝 Contributing
 
@@ -49,5 +51,6 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 Give a ⭐️ if this project helped you!
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
