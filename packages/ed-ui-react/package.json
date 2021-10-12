@@ -24,7 +24,7 @@
   "scripts": {
     "start": "start-storybook -p 6006",
     "test": "react-scripts test",
-    "build:storybook": "yarn build && build-storybook -o ../../dist/react",
+    "build:storybook": "yarn build && build-storybook -o ../../dist",
     "build": "rollup -c",
     "prepare": "yarn build",
     "prepublish": "yarn build"
