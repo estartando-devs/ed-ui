@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to ed-ui 👋</h1>
+<h1 align="center">Welcome to ed-ui :zap: </h1>
 <p>
   <a href="https://www.npmjs.com/package/ed-ui" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/ed-ui.svg">
