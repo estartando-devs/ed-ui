@@ -49,7 +49,6 @@ const VARIANT = {
     border-color: #fff;
     color: ${(props) => props.theme.palette.primary.main};
     &:hover {
-      background-color: red;
       border-color: shade(0.15, "#fff");
       color: ${(props) => shade(0.15, props.theme.palette.primary.main)};
     }
