@@ -3,7 +3,7 @@
   "version": "0.0.15",
   "private": false,
   "description": "UI Components using React",
-  "author": "jonatapinto <jonatastdb_jp@hotmail.com>",
+  "author": "ED Team",
   "homepage": "https://github.com/estartando-devs/ed-ui/tree/main/packages/@ed-ui-react#readme",
   "license": "ISC",
   "files": [
