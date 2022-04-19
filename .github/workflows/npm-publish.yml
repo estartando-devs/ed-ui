@@ -1,0 +1,26 @@
+name: NPM DEPLOY
+
+on:
+  push:
+    branches: [develop]
+
+jobs:
+  default:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: Install Packages
+        run: yarn install
+
+      - name: Setup npm registry
+        run: |
+          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish
+        run: yarn publish:pkg
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

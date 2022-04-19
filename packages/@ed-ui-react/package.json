@@ -1,6 +1,6 @@
 {
   "name": "@ed-ui/react",
-  "version": "0.0.15",
+  "version": "0.1.10",
   "private": false,
   "description": "UI Components using React",
   "author": "ED Team",
@@ -60,7 +60,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@stitches/react": "^1.2.7",
-    "@ed-ui/styles": "0.0.6"
+    "@ed-ui/styles": "^0.1.0",
+    "@stitches/react": "^1.2.7"
   }
 }
