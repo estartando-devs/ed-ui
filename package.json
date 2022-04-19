@@ -22,7 +22,7 @@
     "start": "lerna run start --parallel",
     "deploy:storybook": "yarn build:storybook && gh-pages-deploy",
     "deploy:storybook-clean": "rimraf README.md packages package.json",
-    "publish:pkg": "yarn build && lerna publish --yes",
+    "publish:pkg": "yarn build && lerna publish --yes --no-verify-access",
     "commit": "cz"
   },
   "devDependencies": {
