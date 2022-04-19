@@ -1,6 +1,6 @@
 {
   "name": "@ed-ui/styles",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "private": false,
   "description": "A package to manage styles for the ed-ui library",
   "author": "ED Team",
@@ -44,5 +44,5 @@
   },
   "dependencies": {
     "@stitches/core": "latest"
-   }
+  }
 }
