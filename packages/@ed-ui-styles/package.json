@@ -1,0 +1,48 @@
+{
+  "name": "@ed-ui/styles",
+  "version": "0.0.6",
+  "private": false,
+  "description": "UI Components using React",
+  "author": "jonatapinto <jonatastdb_jp@hotmail.com>",
+  "homepage": "https://github.com/estartando-devs/ed-ui/tree/main/packages/@ed-ui-styles#readme",
+  "license": "ISC",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estartando-devs/ed-ui.git",
+    "directory": "packages/@ed-ui-react"
+  },
+  "bugs": {
+    "url": "https://github.com/estartando-devs/ed-ui/issues"
+  },
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "yarn build",
+    "prepublish": "yarn build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^21.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "autoprefixer": "^10.3.7",
+    "babel-loader": "^8.2.2",
+    "rollup": "^2.58.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-typescript2": "^0.31.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@stitches/core": "latest"
+   }
+}
