@@ -14,6 +14,11 @@ jobs:
       - name: Install Packages
         run: yarn install
 
+      - name: Setup git
+       run: |
+        git config --global user.email "estartandodevs@gmail.com"
+        git config --global user.name "Estartando Devs"
+
       - name: Setup npm registry
         run: |
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
