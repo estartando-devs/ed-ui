@@ -4,6 +4,11 @@ on:
   push:
     branches: [develop]
 
+env:
+  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+  GH_TOKEN: ${{ secrets.LIGHTHOUSE_CHECK_GITHUB_ACCESS_TOKEN }}
+  GITHUB_REPOSITORY: estartando-devs/ed-ui.git
+
 jobs:
   default:
     runs-on: ubuntu-latest
@@ -20,15 +25,16 @@ jobs:
         run: |
           git config --local user.email "estartandodevs@gmail.com"
           git config --local user.name "Estartando Devs"
+          git remote set-url origin https://x-access-token:${env.GH_TOKEN}@github.com/${env.GITHUB_REPOSITORY}
 
       - name: Setup npm registry
         run: |
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ env.NPM_TOKEN }}
 
       - name: Publish
         run: yarn publish:pkg
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GH_TOKEN: ${{ secrets.LIGHTHOUSE_CHECK_GITHUB_ACCESS_TOKEN }}
+          NPM_TOKEN: ${{ env.NPM_TOKEN }}
+          GH_TOKEN: ${{ env.LIGHTHOUSE_CHECK_GITHUB_ACCESS_TOKEN }}
