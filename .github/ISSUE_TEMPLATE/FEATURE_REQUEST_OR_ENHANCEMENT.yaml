@@ -38,7 +38,9 @@ body:
     attributes:
       label: Required functionality
       description:
-       'Inform the needs and features of the request. It doesn't have to be a complete list, we'll work based on what you've listed and define based on the UX.'
+       'Inform the needs and features of the request. 
+        It doesnt have to be a complete list,
+        well work based on what you ve listed and define based on the UX.'
   - type: textarea
     id: timeline
     attributes:
