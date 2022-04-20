@@ -1,0 +1,18 @@
+name: Storybook
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: Install Packages
+        run: yarn install
+
+      - name: Build and update stories
+        run: yarn deploy:storybook
