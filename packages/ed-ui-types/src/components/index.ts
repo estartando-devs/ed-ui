@@ -1,1 +1,0 @@
-export { IButton } from "./IButton"
