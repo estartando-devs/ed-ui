@@ -11,6 +11,11 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
 
+      - name: Setup git
+        run: |
+          git config --local user.email "estartandodevs@gmail.com"
+          git config --local user.name "Estartando Devs"
+
       - name: Install Packages
         run: yarn install
 
