@@ -15,8 +15,9 @@ jobs:
         run: yarn install
 
       - name: Setup git
-        run:
-          command: git config --global user.email "estartandodevs@gmail.com" && git config --global user.name "Estartando Devs"
+        run: |
+          git config --local user.email "estartandodevs@gmail.com"
+          git config --local user.name "Estartando Devs"
 
       - name: Setup npm registry
         run: |
