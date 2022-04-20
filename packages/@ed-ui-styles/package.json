@@ -1,6 +1,6 @@
 {
   "name": "@ed-ui/styles",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "private": false,
   "description": "A package to manage styles for the ed-ui library",
   "author": "ED Team",
