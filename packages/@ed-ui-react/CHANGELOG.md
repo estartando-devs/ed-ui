@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.11 (2022-04-20)
+
+
+### Bug Fixes
+
+* workflow ([a6f2046](https://github.com/estartando-devs/ed-ui/commit/a6f20466101f7445335f4845f76df9c9bcd68947))
+
+
+
+
+
 ## [0.1.10](https://github.com/estartando-devs/ed-ui/compare/@ed-ui/react@0.1.9...@ed-ui/react@0.1.10) (2022-04-19)
 
 **Note:** Version bump only for package @ed-ui/react
