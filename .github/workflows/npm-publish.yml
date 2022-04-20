@@ -16,8 +16,7 @@ jobs:
 
       - name: Setup git
         run:
-          command: git config --global user.email "estartandodevs@gmail.com"
-          command: git config --global user.name "Estartando Devs"
+          command: git config --global user.email "estartandodevs@gmail.com" && git config --global user.name "Estartando Devs"
 
       - name: Setup npm registry
         run: |
