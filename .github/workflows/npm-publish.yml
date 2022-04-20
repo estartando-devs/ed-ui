@@ -7,7 +7,7 @@ on:
 env:
   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
   GH_TOKEN: ${{ secrets.LIGHTHOUSE_CHECK_GITHUB_ACCESS_TOKEN }}
-  GITHUB_REPOSITORY: estartando-devs/ed-ui.git
+  GITHUB_REPOSITORY: estartando-devs/ed-ui
 
 jobs:
   default:
@@ -25,7 +25,7 @@ jobs:
         run: |
           git config --local user.email "estartandodevs@gmail.com"
           git config --local user.name "Estartando Devs"
-          git remote set-url origin https://x-access-token:${env.GH_TOKEN}@github.com/${env.GITHUB_REPOSITORY}
+          git remote set-url origin https://x-access-token:${{ env.GH_TOKEN }}@github.com/${{ env.GITHUB_REPOSITORY }}
 
       - name: Setup npm registry
         run: |
