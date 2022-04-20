@@ -3,7 +3,7 @@ name: ghpages
 on:
   push:
     branches:
-      - master
+      - develop
 
 jobs:
   build-and-deploy:
