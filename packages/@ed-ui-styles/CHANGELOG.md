@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.1 (2022-04-20)
+
+
+### Bug Fixes
+
+* workflow ([a6f2046](https://github.com/estartando-devs/ed-ui/commit/a6f20466101f7445335f4845f76df9c9bcd68947))
+
+
+
+
+
 # 0.1.0 (2022-04-19)
 
 
