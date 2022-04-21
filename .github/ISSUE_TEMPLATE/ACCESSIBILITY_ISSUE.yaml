@@ -1,7 +1,7 @@
 name: Accessibility Issue ♿
 description: Report an accessibility or usability issue.
 title: '[a11y]: '
-labels: 'type: a11y ♿'
+labels: ['type: a11y ♿']
 body:
   - type: markdown
     attributes:
@@ -43,13 +43,13 @@ body:
       options:
         - Windows
         - MacOS
-        - Other
+        - Linux
   - type: input
     id: version
     attributes:
       label: Package version
       description: 'Which version(s) are you using?'
-      placeholder: e.g. v10.42.0
+      placeholder: e.g. @ed-ui/react v0.1.15
     validations:
       required: true
   - type: input
