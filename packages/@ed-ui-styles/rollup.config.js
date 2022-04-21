@@ -51,7 +51,7 @@ export default {
       typescript: require('typescript'),
     }),
     postcss({
-      exxtensions: ['.css']
+      extensions: ['.css']
     }),
     babel({
       extensions: ['.ts', '.tsx'],
