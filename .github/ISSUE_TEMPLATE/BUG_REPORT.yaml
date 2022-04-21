@@ -59,7 +59,7 @@ body:
     attributes:
       label: CodeSandbox example
       description: |
-        Re-create the issue using [CodeSandbox](https://codesandbox.io/). We have templates for [@ed-ui/react](),
+        Re-create the issue using [CodeSandbox](https://codesandbox.io/). We have templates for [@ed-ui/react](https://github.com/estartando-devs/ed-ui/tree/develop/examples/codesandbox),
     validations:
       required: true
   - type: textarea

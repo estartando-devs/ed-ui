@@ -94,7 +94,7 @@ body:
       label: CodeSandbox example
       description:
         'Use our
-        [CodeSandbox]()
+        [CodeSandbox](https://codesandbox.io/s/condescending-morning-sw762j)
         to re-create the issue'
     validations:
       required: true
