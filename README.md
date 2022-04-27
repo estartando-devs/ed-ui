@@ -9,7 +9,7 @@
 
 ### 🏠 [Homepage](https://github.com/estartando-devs/ed-ui#readme)
 
-### ✨ [Demo](estartando-devs.github.io/ed-ui)
+### ✨ [Demo](https://estartando-devs.github.io/ed-ui/)
 
 ## Prerequisites
 
