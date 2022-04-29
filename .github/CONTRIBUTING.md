@@ -41,11 +41,11 @@ git remote add upstream https://github.com/estartando-devs/ed-ui.git
 
 <!-- #default-branch-switch -->
 
-3. Synchronize your local `master` branch with the upstream one:
+3. Synchronize your local `main` branch with the upstream one:
 
 ```sh
-git checkout master
-git pull upstream master
+git checkout main
+git pull upstream main
 ```
 
 4. Install the dependencies with yarn (npm isn't supported):
