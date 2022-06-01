@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2022-06-01)
+
+
+### Features
+
+* **react-components,styles:** rename packages to make sense ([9d196bf](https://github.com/estartando-devs/ed-ui/commit/9d196bfb6210e202c5cc50a7a63d0c3d0fb19f59))
+
+
+
+
+
 ## 0.1.22 (2022-06-01)
 
 **Note:** Version bump only for package @ed-ui/styles
