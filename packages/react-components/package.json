@@ -1,6 +1,6 @@
 {
   "name": "@ed-ui/react",
-  "version": "0.2.3",
+  "version": "0.1.25",
   "private": false,
   "description": "UI Components using React",
   "author": "ED Team",
@@ -50,7 +50,7 @@
     "rollup": "^2.58.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.1",
-    "rollup-plugin-typescript2": "^0.32.0"
+    "rollup-plugin-typescript2": "^0.32.1"
   },
   "peerDependencies": {
     "react": ">=16.14.0",
@@ -60,7 +60,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@ed-ui/styles": "^0.2.3",
+    "@ed-ui/styles": "^0.1.15",
     "@stitches/react": "^1.2.7"
   }
 }

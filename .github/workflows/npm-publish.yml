@@ -9,6 +9,11 @@ env:
   GH_TOKEN: ${{ secrets.LIGHTHOUSE_CHECK_GITHUB_ACCESS_TOKEN }}
   GITHUB_REPOSITORY: estartando-devs/ed-ui
 
+env:
+  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+  GH_TOKEN: ${{ secrets.LIGHTHOUSE_CHECK_GITHUB_ACCESS_TOKEN }}
+  GITHUB_REPOSITORY: estartando-devs/ed-ui
+
 jobs:
   default:
     runs-on: ubuntu-latest
