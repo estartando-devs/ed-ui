@@ -3,6 +3,97 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.3 (2022-06-06)
+
+**Note:** Version bump only for package @ed-ui/styles
+
+
+
+
+
+## 0.2.2 (2022-06-05)
+
+**Note:** Version bump only for package @ed-ui/styles
+
+
+
+
+
+## 0.2.1 (2022-06-02)
+
+**Note:** Version bump only for package @ed-ui/styles
+
+
+
+
+
+# 0.2.0 (2022-06-01)
+
+
+### Features
+
+* **react-components,styles:** rename packages to make sense ([9d196bf](https://github.com/estartando-devs/ed-ui/commit/9d196bfb6210e202c5cc50a7a63d0c3d0fb19f59))
+
+
+
+
+
+## 0.1.22 (2022-06-01)
+
+**Note:** Version bump only for package @ed-ui/styles
+
+
+
+
+
+## 0.1.21 (2022-05-30)
+
+**Note:** Version bump only for package @ed-ui/styles
+
+
+
+
+
+## 0.1.20 (2022-05-30)
+
+**Note:** Version bump only for package @ed-ui/styles
+
+
+
+
+
+## 0.1.19 (2022-05-24)
+
+**Note:** Version bump only for package @ed-ui/styles
+
+
+
+
+
+## 0.1.18 (2022-05-23)
+
+**Note:** Version bump only for package @ed-ui/styles
+
+
+
+
+
+## 0.1.17 (2022-05-20)
+
+**Note:** Version bump only for package @ed-ui/styles
+
+
+
+
+
+## 0.1.16 (2022-05-09)
+
+**Note:** Version bump only for package @ed-ui/styles
+
+
+
+
+
 ## 0.1.15 (2022-05-04)
 
 **Note:** Version bump only for package @ed-ui/styles
