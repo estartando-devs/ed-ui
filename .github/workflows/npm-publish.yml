@@ -2,13 +2,8 @@ name: NPM DEPLOY
 
 on:
   push:
-    branches: [main]
-
-env:
-  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-  GH_TOKEN: ${{ secrets.LIGHTHOUSE_CHECK_GITHUB_ACCESS_TOKEN }}
-  GITHUB_REPOSITORY: estartando-devs/ed-ui
-
+    branches:
+      - main
 env:
   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
   GH_TOKEN: ${{ secrets.LIGHTHOUSE_CHECK_GITHUB_ACCESS_TOKEN }}
@@ -42,4 +37,4 @@ jobs:
         run: yarn publish:pkg
         env:
           NPM_TOKEN: ${{ env.NPM_TOKEN }}
-          GH_TOKEN: ${{ env.LIGHTHOUSE_CHECK_GITHUB_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ env.GH_TOKEN }}
