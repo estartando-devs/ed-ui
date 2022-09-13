@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.37 (2022-09-13)
+
+**Note:** Version bump only for package @ed-ui/react
+
+
+
+
+
 ## 0.1.36 (2022-08-27)
 
 **Note:** Version bump only for package @ed-ui/react
